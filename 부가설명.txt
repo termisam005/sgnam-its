@@ -1,0 +1,37 @@
+uniplus_template 는 교통화면 디자인 기반으로 제작한 리액트환경 Jsx 퍼블리싱 입니다.
+
+퍼블리싱 소스를 회사공용으로 제공하는 목적으로 제작중입니다.
+
+다크모드와 라이트모드가 동시에 필요할 때를 위한 호환버전입니다. 추가작업과 테스트를 진행중입니다.
+
+
+<확인방법>
+- git clone http://git.uinetworks.kr/design/uniplus_template_DarkLight.git
+- npm install
+- npm start
+
+<pages 폴더 페이지설명>
+- Login : 로그인
+- Main : 상황관리
+- Error : 팝업이 포함된 에러페이지
+- Signal : 신호최적화
+- Record : 상황관리이력
+- Users : 사용자관리
+
+<comp 폴더 페이지설명>
+컴포넌트 모음입니다.
+- Components (Button), Cards, Control, Etc, Input, Map, Navigation, Popover, Popup, Selector, Tables, Tab&Toggle
+
+<style 수정방법>
+styles폴더에 custom.scss(개발자가 추가하는 css파일)을 추가해서 클래스 별로 수정해서 쓰면 됩니다.
+주의할 점은 index.scss에 import 된 다른 css파일중에 제일 하단에 import 되어야 합니다.
+그래야만 기존에 있던 클래스와 스타일이 충돌됬을때 custom.scss 에 작성한 스타일이 우선 적용됩니다.
+
+
+etc) 모든단위를 px이 아닌 rem으로 했습니다. 3840 x 2160 등 넓은 해상도에 바로 적용시키기 위함입니다.
+ - 1rem 은 16px 입니다. 14px = 0.875rem, 16px = 1rem
+ - 20px의 rem을 알고싶으면 계산기로 20/16 하면 1.25rem 이 됩니다.
+ - body,html {font-size: 1rem;} 이 기본사이즈 설정이고 css mediaquery 에서 예를들어 해상도 3800px 이상일때 
+   body,html {font-size: 2rem;} 이라고 설정하면 rem으로 책정된 모든 컨텐츠의 스타일이 2배 사이즈가 됩니다.
+ - uniplus_template 화면에서는 일단 2400px 이상일때 (해상도 2560, 2k 대응) 컨텐츠 1.2배, 
+   3800px 이상일때 (해상도 3840, 4k 대응) 컨텐츠 1.7배로 커지게 스타일링 해놨습니다.
