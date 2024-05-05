@@ -8,7 +8,7 @@
 + 버튼만 누르면 다크모드, 밝기모드 컬러호환 됩니다.
 
 ```
-- git clone http://git.uinetworks.kr/design/uniplus_template_DarkLight.git
+- git clone https://github.com/termisam005/sgnam-its.git
 - npm install
 - npm start
 ```

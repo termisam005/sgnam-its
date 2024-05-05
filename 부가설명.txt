@@ -1,14 +1,6 @@
 uniplus_template 는 교통화면 디자인 기반으로 제작한 리액트환경 Jsx 퍼블리싱 입니다.
 
-퍼블리싱 소스를 회사공용으로 제공하는 목적으로 제작중입니다.
-
-다크모드와 라이트모드가 동시에 필요할 때를 위한 호환버전입니다. 추가작업과 테스트를 진행중입니다.
-
-
-<확인방법>
-- git clone http://git.uinetworks.kr/design/uniplus_template_DarkLight.git
-- npm install
-- npm start
+다크모드와 라이트모드가 동시에 필요할 때를 위한 호환버전입니다.
 
 <pages 폴더 페이지설명>
 - Login : 로그인
